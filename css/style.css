@@ -68,6 +68,10 @@ header {
 
 /* MAIN */
 
+section.products {
+  padding: 20px 0;
+}
+
 .products > .container {
   display: flex;
   flex-wrap: wrap;
@@ -78,8 +82,21 @@ header {
 
 .product-card {
   flex: 1 0 30%;
+  font-size: 0.7rem;
+  text-align: center;
+}
 
-  /* DEBUG */
-  background-color: aqua;
-  min-height: 300px;
+.product-image {
+  width: 470px;
+}
+
+.product-description {
+  text-align: left;
+}
+
+.product-image:hover {
+}
+
+.product-image-secondary {
+  display: none;
 }
