@@ -62,12 +62,18 @@ footer {
   text-decoration: none;
 }
 
+.filters-item:hover {
+  color: #aaaaaa;
+  text-decoration: underline;
+}
+
 .logo-container {
   text-align: center;
 }
 
 .logo {
   max-height: 100%;
+  cursor: pointer;
 }
 
 .user-info {
@@ -77,6 +83,7 @@ footer {
 
 .user-info-icon {
   margin: 0 3px;
+  cursor: pointer;
 }
 
 /* MAIN */
@@ -196,6 +203,10 @@ footer > .container {
   color: white;
 }
 
+.privacy-link-item:hover {
+  text-decoration: underline;
+}
+
 .contacts {
   font-size: 1.2rem;
   color: white;
@@ -205,4 +216,9 @@ footer > .container {
 .contacts-title {
   padding: 10px;
   font-size: 0.9rem;
+}
+
+.fa-brands:hover {
+  cursor: pointer;
+  color: #255fb6;
 }
