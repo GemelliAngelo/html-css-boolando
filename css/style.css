@@ -8,6 +8,11 @@
 
 header {
   background-color: #ff6900;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 body {
@@ -85,7 +90,7 @@ section.products {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 50px 30px;
 }
 
 .product-card {
@@ -147,6 +152,19 @@ section.products {
   color: white;
   padding: 5px 10px;
   font-weight: 700;
+}
+
+.favourite {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 2rem;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.favourite:hover {
+  color: red;
 }
 
 /* FOOTER */
