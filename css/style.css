@@ -10,6 +10,10 @@ header {
   background-color: #ff6900;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* UTILS */
 
 .container {
@@ -84,24 +88,59 @@ section.products {
   flex: 1 0 30%;
   font-size: 0.7rem;
   text-align: center;
+  position: relative;
 }
 
 .product-image {
-  width: 470px;
+  width: 450px;
+  cursor: pointer;
 }
 
 .product-description {
   text-align: left;
 }
 
-.product-image:hover .product-image-main {
+.product-image:hover .product-image.main {
   display: none;
 }
 
-.product-image:hover .product-image-secondary {
+.product-image:hover .product-image.secondary {
   display: block;
 }
 
-.product-image-secondary {
+.product-image.secondary {
   display: none;
+}
+
+.price {
+  color: red;
+  display: inline-block;
+}
+
+.original-price {
+  display: inline-block;
+  text-decoration: line-through;
+}
+
+.plates {
+  position: absolute;
+  bottom: 100px;
+  left: 10px;
+  font-size: 0.7rem;
+}
+
+.discount {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  font-weight: 700;
+}
+
+.echo-plate {
+  display: inline-block;
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  font-weight: 700;
 }
