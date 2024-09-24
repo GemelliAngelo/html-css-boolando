@@ -23,11 +23,11 @@ header {
 
 .header-content.container {
   display: flex;
-  height: 50px;
+  height: 70px;
 }
 
 .header-item {
-  padding: 10px;
+  padding: 20px 10px;
   color: white;
   flex: 1 1 30%;
 }
@@ -64,4 +64,22 @@ header {
 
 .user-info-icon {
   margin: 0 3px;
+}
+
+/* MAIN */
+
+.products > .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.product-card {
+  flex: 1 0 30%;
+
+  /* DEBUG */
+  background-color: aqua;
+  min-height: 300px;
 }
