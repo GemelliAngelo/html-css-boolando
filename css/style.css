@@ -94,7 +94,12 @@ section.products {
   text-align: left;
 }
 
-.product-image:hover {
+.product-image:hover .product-image-main {
+  display: none;
+}
+
+.product-image:hover .product-image-secondary {
+  display: block;
 }
 
 .product-image-secondary {
