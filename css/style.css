@@ -138,7 +138,7 @@ section.products {
   text-decoration: line-through;
 }
 
-.plates {
+.labels {
   position: absolute;
   bottom: 100px;
   left: 10px;
@@ -153,7 +153,7 @@ section.products {
   font-weight: 700;
 }
 
-.echo-plate {
+.echo-label {
   display: inline-block;
   background-color: green;
   color: white;
@@ -161,7 +161,7 @@ section.products {
   font-weight: 700;
 }
 
-.favourite {
+.wishlist {
   position: absolute;
   top: 50px;
   right: 50px;
