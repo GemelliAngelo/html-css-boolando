@@ -121,7 +121,7 @@ section.products {
 }
 
 .product-image:hover .product-image.secondary {
-  display: block;
+  display: inline-block;
 }
 
 .product-image.secondary {
@@ -220,5 +220,5 @@ footer > .container {
 
 .fa-brands:hover {
   cursor: pointer;
-  color: #255fb6;
+  color: #aaaaaa;
 }
